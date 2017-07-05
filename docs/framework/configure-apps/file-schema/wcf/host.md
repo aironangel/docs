@@ -28,7 +28,7 @@ Specifies settings for a service host.
 ```xml  
 <host>  
       <baseAddresses>  
-         <baseAddress baseAddress="string" />  
+         <add baseAddress="string" />  
       </baseAddresses>  
       <timeOuts closeTimeout="TimeSpan"  
          openTimeout="TimeSpan" >  
